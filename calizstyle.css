@@ -1,0 +1,84 @@
+
+body{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 1.5rem;
+}
+/*  the following code is an example of styling p elements inside the section div container*/
+.top-container p{
+    color: rgb(78, 131, 26);
+    font-size: 1rem;
+}
+.middle-container p{
+    color: rgb(44, 139, 111);
+    font-size: 1rem;
+}
+/* the following code is an example of styling an element that is below an element.
+In this cause you indicate the element before and then the element you want to apply the style,
+the style will only apply to the element below the element that we mentioned before...*/
+h3 + h2{
+    color: rgb(255, 0, 212);
+}
+/* the following example indicates the styling of elements (childs elements) that belongs to a parent element. 
+It is important that when you are using this symbol > you specify the parent element, the style will apply to the childs you specify..
+There is another option to specify the childs using child syntaxis.. it shows bellow.*/ 
+div > h3{
+    color: deeppink;
+}
+/* este no ha funcionado es que parece que para esto no funciona de esta manera, solo funciona para listas*/
+.sun h1 h2{
+    color: rgb(53, 0, 139);
+
+}
+/*-- in the section below I am gonna try using two classes for an html element
+in this example I created a first class when i am defining the background color, 
+height and witdh font-size, color of the font and position of a set a elements. --*/
+.background-font{
+    background-color: black;
+    height: 3rem;
+    width: 3rem;
+    font-size: .7rem;
+    color: white;
+    position: relative;
+}
+/*--then, I created another classes for each of the elements cause i needed to positioning 
+each of them in a different position.....it shows bellow. In this example i am using both classes--*/
+.one {
+    left: 5rem;
+}
+.two{
+    left: 8.7rem;
+    bottom: 3.9rem;
+}
+.three{
+    left:12.5rem;
+    bottom: 7.7rem;
+}
+.four{
+    left: 16.3rem;
+    bottom: 11.5rem;
+}
+.font-size{
+    font-size: 1rem;
+}
+
+/*--in this section i am trying to styling a second element into a div lets say "the second child" using the tag as a selector but... it doesnt work
+I was following dev ed tutorial, i wanted to style the element h5 that is inside h4 but... not working. I guess its only works on lists.--*/
+.targeting-secondelement h4 h5 {
+    color: darkgoldenrod;
+}
+/*--in this section i am trying to styling a second element into a div lets say "the second child" using the tag as a selecto in the above code didnt work
+    but here it seems it working properly--*/
+.targeting-secondelement ul li{
+    color: darkgoldenrod;
+}
+.child-example h1:nth-child(3){
+    color: red;
+}
+h6{
+    color:violet
+}
+h6{
+    color: yellowgreen;
+}
