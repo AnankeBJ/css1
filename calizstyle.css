@@ -1,4 +1,4 @@
-
+*{box-sizing: border-box;}
 body{
     font-size: 62.5%;
 }
@@ -81,4 +81,13 @@ h6{
 }
 h6{
     color: yellowgreen;
+}
+/*-- in this section i am trying margin and padding--*/
+.margin-padding{
+    background-color: indianred;
+    height: 5rem;
+    width: 5rem;
+    font-size: 2rem;
+    margin: 4rem 1rem;
+    padding: 15rem;
 }
