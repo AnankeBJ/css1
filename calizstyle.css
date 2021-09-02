@@ -46,18 +46,19 @@ height and witdh font-size, color of the font and position of a set a elements. 
 each of them in a different position.....it shows bellow. In this example i am using both classes--*/
 .one {
     left: 5rem;
+    top:2rem;
 }
 .two{
     left: 8.7rem;
-    bottom: 3.9rem;
+    bottom: 1rem;
 }
 .three{
     left:12.5rem;
-    bottom: 7.7rem;
+    bottom:4rem;
 }
 .four{
     left: 16.3rem;
-    bottom: 11.5rem;
+    bottom: 7rem; 
 }
 .font-size{
     font-size: 1rem;
@@ -90,4 +91,41 @@ h6{
     font-size: 2rem;
     margin: 4rem 1rem;
     padding: 15rem;
+}
+button{
+  
+    background: none;
+    background: tomato;
+    color: white;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 1rem;
+    
+}
+button:hover{
+    background: white;
+    color: teal;
+}
+input:focus{
+    color: violet;
+    background: yellow;
+}
+.units-caliz{
+    background-color: rgb(129, 6, 33);
+    height: 50vh;
+    width: 50vw;
+}
+.units-caliz h1, h2{
+    display: inline-block;
+    color: white;
+}
+.units-2{
+    background-color: teal;
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    width: 100vw;
+}
+.units-2 h2{
+    margin: 0 0 0 3rem;
 }
